@@ -1,0 +1,57 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url("/Images/medical.jpg");
+    /* background-color: lightblue; */
+    text-align: center;
+    background-size: cover;
+} 
+input[type=text], select {
+  width: 15%;
+  padding: 5px 5px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid olive;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size:19px;
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+input[type=password], select {
+  width: 15%;
+  padding: 5px 5px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid olive;
+  border-radius: 4px;
+  box-sizing: border-box;
+   font-size:19px;
+}
+input[type=password]:focus {
+  background-color: lightblue;
+}
+input[type=submit]{
+ background-color: #808080;
+ font-size: 15px;
+  border-radius: 15%;
+  color: white;
+  padding: 12px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+div {
+	margin: 9px 0px;
+  border-radius: 10px;
+ font-size:20px;
+  padding:40px;
+}
+h1{
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	font-size:50px;
+}
+
